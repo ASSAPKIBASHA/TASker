@@ -1,0 +1,97 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color:blue;
+            color: #fff;
+            padding: 1rem;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav li {
+            margin-right: 1rem;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 1rem auto;
+            padding: 1rem;
+        }
+        
+        .task {
+            background-color: #eee5e5;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius:10px;
+            border-radius:10px;
+            
+        }
+        
+        button {
+            background-color: #147c3f;
+            border: none;
+            color: rgb(0, 202, 61);
+            margin-right:10px;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 20%;
+        }
+    
+        /*btn*/
+
+        #task-form {
+            border: 1px solid #b9c4bb;
+            padding: 20px;
+            border-radius: 5px;
+          }
+          
+          #title, 
+          #description,
+          #due-date,
+          #status {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #3d3947;
+            border-radius: 5px;
+          } 
+          
+          #add-task-btn,
+          button[type="submit"],
+          #cancel-btn {
+            background: #bcccb4;
+            color: #16c05d;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+
+          /*login form*/
+
+         
